@@ -48,3 +48,4 @@ function checkdelete(e){
         
         parent.classList.toggle("completed");                   //toggle is used to add or delete class,on first click it adds class, on second click it deletes class
     }
+}
