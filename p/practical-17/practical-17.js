@@ -44,18 +44,18 @@ function setGreeting()
 
     if(hour<12)
     {
-        document.body.style.backgroundImage= 'url("img/morning1.jpg")';
+        document.body.style.backgroundImage= 'url("img/morning.jpeg")';
         
         greeting.innerHTML ='Good Morning :)';
     }
     else if(hour<18)
     {
-        document.body.style.backgroundImage= 'url("img/evening.jpg")';
+        document.body.style.backgroundImage= 'url("img/evening.jpeg")';
         greeting.innerHTML ='Good Evening ;-)';
         document.body.style.color='white';
     }
     else{
-        document.body.style.backgroundImage= 'url("img/night.jpg")';
+        document.body.style.backgroundImage= 'url("img/night.jpeg")';
         greeting.innerHTML ='Good Night :o Zz';
         document.body.style.color='white';
     }
